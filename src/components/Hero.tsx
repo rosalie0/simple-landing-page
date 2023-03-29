@@ -7,7 +7,9 @@ const Hero = () => {
   // useEffect for typing animation
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["BTB", "BTC", "SASS", "cat food"],
+      strings: ["BTB", "BTC", "SASS", "cat food", "cat toys"],
+      smartBackspace: false, // Otherwise BTB and BTC looks weird because it only changes the last letter.
+
       typeSpeed: 120,
       backSpeed: 140,
       loop: true,
@@ -21,7 +23,7 @@ const Hero = () => {
 
   return (
     <div className="text-white">
-      <div className="max-w-3xl mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center">
+      <div className="max-w-3xl mt-[-96px] w-full h-screen mx-auto text-center font-bold flex flex-col justify-center">
         <p className="uppercase text-pink-300 font-bold p-2">
           Growing with data analytics
         </p>
@@ -29,10 +31,13 @@ const Hero = () => {
           Grow with data.
         </h2>
         <div>
-          <p className="md:text-5xl sm:text-4xl text-xl">
+          <p className="md:text-5xl sm:text-4xl text-xl py-4">
             Fast, flexible financing for <span ref={el} />
           </p>
-          <p></p>
+          <p className="text-gray-300">
+            Monitor you data analytics to increase revenue using BTB, BTC, &
+            SASS platforms.
+          </p>
         </div>
       </div>
     </div>
