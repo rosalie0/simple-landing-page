@@ -22,7 +22,7 @@ const Analytics = () => {
             optio distinctio modi mollitia molestias magni itaque sit
             consectetur reprehenderit laborum deserunt quae.
           </p>
-          <button className="self-center bg-black font-medium my-6 rounded-md w-[200px] py-3 text-pink-300 ">
+          <button className="mx-auto md:mx-0 bg-black font-medium my-6 rounded-md w-[200px] py-3 text-pink-300 ">
             Get Started
           </button>
         </div>
