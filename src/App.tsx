@@ -1,12 +1,12 @@
 import React from "react";
-import Hello from "./components/Hello";
+import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Navbar />
-      <Hello />
+      <Hero />
     </div>
   );
 }
