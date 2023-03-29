@@ -33,14 +33,35 @@ function Footer() {
             <FaGithubSquare size={30} />
           </div>
         </div>
-        <div className="lg:col-span-3">
+
+        <div className="lg:col-span-2 flex justify-between mt-6">
           <div>
-            <h3>Solutions</h3>
+            <h6 className="font-medium text-gray-400">Solutions</h6>
             <ul>
-              <li>Analytics</li>
-              <li>Marketing</li>
-              <li>Commerce</li>
-              <li>Insights</li>
+              <li className="py-2 text-sm cursor-pointer">Analytics</li>
+              <li className="py-2 text-sm cursor-pointer">Marketing</li>
+              <li className="py-2 text-sm cursor-pointer">Commerce</li>
+              <li className="py-2 text-sm cursor-pointer">Insights</li>
+            </ul>
+          </div>
+
+          <div>
+            <h6 className="font-medium text-gray-400">Company</h6>
+            <ul>
+              <li className="py-2 text-sm">About</li>
+              <li className="py-2 text-sm">Blog</li>
+              <li className="py-2 text-sm">Jobs</li>
+              <li className="py-2 text-sm">Press</li>
+              <li className="py-2 text-sm">Careers</li>
+            </ul>
+          </div>
+
+          <div>
+            <h6 className="font-medium text-gray-400">Legal</h6>
+            <ul>
+              <li className="py-2 text-sm">Claim</li>
+              <li className="py-2 text-sm">Policy</li>
+              <li className="py-2 text-sm">Terms</li>
             </ul>
           </div>
         </div>
